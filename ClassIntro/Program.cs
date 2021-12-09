@@ -58,17 +58,17 @@ namespace ClassIntro
         public int İzlenmeOrani { get; set; }
         public int Furkan { get; }
 
-        private readonly int degisken = 2;
+        //private readonly int degisken = 2;
 
-        public Kurs(int furkan)
-        {
-            Furkan = furkan;
-            degisken = 4;
-        }
+        //public Kurs(int furkan)
+        //{
+        //    Furkan = furkan;
+        //    degisken = 4;
+        //}
 
-        public void DenemeMEthod(int yeniFurkan)
-        {
-            Furkan = yeniFurkan;
-        }
+        //public void DenemeMEthod(int yeniFurkan)
+        //{
+        //    Furkan = yeniFurkan;
+        //}
     }
 }
