@@ -53,6 +53,5 @@ namespace ClassIntro
         public string KursAdi { get; set; }
         public string Egitmen { get; set; } 
         public int İzlenmeOrani { get; set; }
-        public int Furkan { get; }
     }
 }
