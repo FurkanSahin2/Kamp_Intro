@@ -6,7 +6,7 @@ namespace Metotlar
 {
     class Urun
     {
-        // Property = Açıklama
+        // Property = Açıklama - prop
         public int Id { get; set; } // "Id" = Bir data'yı diğerlerinden ayırt etmek için kullandığımız alandır (eşsiz değeri anlatır).
 
         public string Adi { get; set; }

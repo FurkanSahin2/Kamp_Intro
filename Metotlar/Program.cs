@@ -12,7 +12,7 @@ namespace Metotlar
 
             string[] meyveler = new string[] {"Elma","Karpuz"};
 
-            Urun urun1 = new Urun();
+            Urun urun1 = new Urun(); // Bunu yaparak class ı tanımlıyoruz. Buna "class'ın örneği" denir. 
 
             urun1.Adi = "Elma";
             urun1.Fiyati = 15;
@@ -20,6 +20,7 @@ namespace Metotlar
             urun1.StokAdedi = 18;
 
             Urun urun2 = new Urun();
+
             urun2.Adi = "Karpuz";
             urun2.Fiyati = 5;
             urun2.Aciklama = "Diyarbakır Karpuzu";
@@ -40,10 +41,9 @@ namespace Metotlar
 
             Console.WriteLine("-------------Metotlar-------------");
 
-            //instance = Class örneği oluşturmak
             // Metotlar bize bir şeyi tekrar tekrar kullanabilme imkanı verir.
             // encapsulation
-            SepetManager sepetManager = new SepetManager();
+            SepetManager sepetManager = new SepetManager(); // Bu yazdığımız kod: instance = Class örneği oluşturmak
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
 
