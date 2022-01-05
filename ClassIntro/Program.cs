@@ -7,8 +7,11 @@ namespace ClassIntro
         static void Main(string[] args)
         {
 
-            string Adi = "M. Furkan ";
-            int Yas = 23;
+            string adi = "M. Furkan ";
+            int yas = 23;
+
+            Console.WriteLine(adi);
+            Console.WriteLine(yas);
 
 
             Kurs kurs1 = new Kurs();
@@ -38,14 +41,8 @@ namespace ClassIntro
 
             foreach (Kurs kurs in kurslar) // Buradaki "kurs" alias'tır. Yani; takma isimdir. Herhangibir şey koyabiliriz.
             {
-                kurs.DenemeMEthod(2);
-                Console.WriteLine( kurs.KursAdi + " : "+ kurs.Egitmen);
-            }
-
-            var k = new Kurs(2);
-
-
-          
+                Console.WriteLine(kurs.KursAdi + " : " + kurs.Egitmen);
+            }  
 
             // Console.WriteLine("Hello World!");
         }
@@ -57,18 +54,5 @@ namespace ClassIntro
         public string Egitmen { get; set; } 
         public int İzlenmeOrani { get; set; }
         public int Furkan { get; }
-
-        //private readonly int degisken = 2;
-
-        //public Kurs(int furkan)
-        //{
-        //    Furkan = furkan;
-        //    degisken = 4;
-        //}
-
-        //public void DenemeMEthod(int yeniFurkan)
-        //{
-        //    Furkan = yeniFurkan;
-        //}
     }
 }

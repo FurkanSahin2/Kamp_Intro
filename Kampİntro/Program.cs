@@ -9,7 +9,7 @@ namespace Kampİntro
             // type safety: Tip Güvenligi
             // Do not repeat yourself: Kendini tekrarlama
 
-            string kategoriEtiketi = "Kategoriler"; // C# dilide bu tek tırnakla yapılmaz.
+            string kategoriEtiketi = "Kategoriler"; // C# dilinde free text tek tırnakla yapılmaz.
             int ogrenciSayisi = 32000;
             double faizOrani = 1.47;
             bool sistemeGirisYapmisMi = true;
