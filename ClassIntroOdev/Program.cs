@@ -67,14 +67,6 @@ namespace ClassIntroOdev
 
 
 
-
-
-
-
-
-
-
-
             class Product
         {
             public string urunTuru { get; set; }
