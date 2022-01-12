@@ -34,6 +34,15 @@ namespace ClassMetotDemo
             musterimanager.Ekle(musteri3);
             Console.WriteLine(" ");
 
+            Console.WriteLine("--------------- Müşteri Listeleme ---------------");
+            Console.WriteLine(" ");
+
+
+            Musteri[] musteriler = new Musteri[] { musteri1, musteri2, musteri3 };
+
+            musterimanager.Listeleme(musteriler);
+
+
 
         }
     }

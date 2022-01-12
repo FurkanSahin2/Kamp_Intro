@@ -15,5 +15,15 @@ namespace ClassMetotDemo
             Console.WriteLine("Yas: " + musteri.Yas);
             Console.WriteLine("Cinsiyet: " + musteri.Cinsiyet);
         }
+        public void Listeleme(Musteri[] musteri)
+        {
+            foreach (var musterii in musteri)
+            {
+                Console.WriteLine("Müşteri Adı:" + musterii.MusteriAd);
+                Console.WriteLine("Müşteri Soyadı:" + musterii.MusteriSoyad);
+                Console.WriteLine("Müşteri Yaşı:" + musterii.Yas);
+                Console.WriteLine("Müsteri Cinsiyeti: " + musterii.Cinsiyet);
+            }
+        }
     }
 }
