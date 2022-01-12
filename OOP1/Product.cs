@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP1
 {
-    // snippet
+    // snippet: Hazır kodlar
     // Not: Class oluştururken isimlerin ilk harfi büyük olur. 
     // Not2: Buradaki class gibilerinde sadece özellik olur. 
     class Product

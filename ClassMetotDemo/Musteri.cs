@@ -7,9 +7,9 @@ namespace ClassMetotDemo
     class Musteri
     {
         public int Id { get; set; }
-        public string MusteriAd { get; set; }
-        public  string MusteriSoyad { get; set; }
-        public int Yas { get; set; }
-        public string Cinsiyet { get; set; }
+        public string musteriAd { get; set; }
+        public  string musteriSoyad { get; set; }
+        public int yas { get; set; }
+        public string cinsiyet { get; set; }
     }
 }
