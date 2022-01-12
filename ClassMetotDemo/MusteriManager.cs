@@ -17,12 +17,12 @@ namespace ClassMetotDemo
         }
         public void Listeleme(Musteri[] musteri)
         {
-            foreach (var musterii in musteri)
+            foreach (var musteri2 in musteri)
             {
-                Console.WriteLine("Müşteri Adı:" + musterii.MusteriAd);
-                Console.WriteLine("Müşteri Soyadı:" + musterii.MusteriSoyad);
-                Console.WriteLine("Müşteri Yaşı:" + musterii.Yas);
-                Console.WriteLine("Müsteri Cinsiyeti: " + musterii.Cinsiyet);
+                Console.WriteLine("Müşteri Adı:" + musteri2.MusteriAd);
+                Console.WriteLine("Müşteri Soyadı:" + musteri2.MusteriSoyad);
+                Console.WriteLine("Müşteri Yaşı:" + musteri2.Yas);
+                Console.WriteLine("Müsteri Cinsiyeti: " + musteri2.Cinsiyet);
             }
         }
     }

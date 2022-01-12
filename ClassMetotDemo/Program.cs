@@ -24,7 +24,7 @@ namespace ClassMetotDemo
             musteri3.Yas = 18;
             musteri3.Cinsiyet = "Erkek";
 
-            Console.WriteLine("--------------- Müşteri Ekleme ---------------");
+            Console.WriteLine("--------------- Müşteri Ekleme ---------------" + "\n");
 
             MusteriManager musterimanager = new MusteriManager();
             musterimanager.Ekle(musteri1);
@@ -34,8 +34,7 @@ namespace ClassMetotDemo
             musterimanager.Ekle(musteri3);
             Console.WriteLine(" ");
 
-            Console.WriteLine("--------------- Müşteri Listeleme ---------------");
-            Console.WriteLine(" ");
+            Console.WriteLine("--------------- Müşteri Listeleme ---------------" + "\n");
 
 
             Musteri[] musteriler = new Musteri[] { musteri1, musteri2, musteri3 };
