@@ -31,10 +31,6 @@ namespace OOP1
             ProductManager productManager = new ProductManager();
             productManager.Add(product2);
 
-            int sayi = 100;
-            productManager.BiseyYap(sayi);
-            Console.WriteLine(sayi);
-
 
         }
     }

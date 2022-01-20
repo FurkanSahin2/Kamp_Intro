@@ -68,3 +68,8 @@ while(sayi<100)
 
 sayi++ demek döngü her çalıştığında sayi'yi 1 arttır demektir. Yani döngü her çalıştığında sayi 1,2,3,4,5,6... 
 diyerek koşulumuzda belirttiğimiz gibi sayi 100'den küçük olmayıncaya kadar çalıştıracak ve ekrana 100 defa adımı yazmış olacağım.
+
+Ders 4:
+
+Toplu comment için = ctrl + k + ctrl + c 
+Toplu commenti geri almak için = ctrl + k + ctrl + u 

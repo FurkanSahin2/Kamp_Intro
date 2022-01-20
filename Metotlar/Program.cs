@@ -47,6 +47,7 @@ namespace Metotlar
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
 
+            // Ekle2 değişkenli bu verilerimiz veri tabanındaki herhangi bir değişiklikte bize problem çıkaracağı için böyle kullanmayı pek tercih etmeyiz.
             sepetManager.Ekle2("Armut", "Yeşil Armut", 12, 7);
             sepetManager.Ekle2("Karpuz", "Diyarbakır Karpuzu", 10, 3);
             sepetManager.Ekle2("Elma", "Yeşil Elma", 12, 5);

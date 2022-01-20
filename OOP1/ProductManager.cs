@@ -10,12 +10,12 @@ namespace OOP1
         // encapsulation
         public void Add(Product product)
         {
-
+            Console.WriteLine(product.ProductName + " eklendi");
         }
-        
-        public void BiseyYap(int sayi)
+
+        public void Uptade(Product product)
         {
-            sayi = 99;
+            Console.WriteLine(product.ProductName + " güncellendi");
         }
     }
 
