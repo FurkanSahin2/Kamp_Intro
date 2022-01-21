@@ -34,7 +34,7 @@ namespace Koleksiyonlar
             Console.WriteLine(isimler2[4]);
             Console.WriteLine(isimler2[0]);
 
-          
+            // Note2: Buradaki "list" bir class olup peşinden gelen <> lü ifadeye 'jenerik yapı' diyoruz.
         }
     }
 }

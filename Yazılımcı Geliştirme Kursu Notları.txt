@@ -4,6 +4,8 @@ Değişkenler, veri tutuculardır ve amacı onu bir yer/yerlerde göstermektir. 
 Not: Değişkenler bitişik olmalıdır. Veya "_" vb. olmalıdır. 
 Not2: "if-else" bloğunu yalnızca 2 tane durum söz konusuysa kullanırız.
 
+
+
    2. Gün (Ödev)
 
 Soru1:
@@ -68,6 +70,7 @@ while(sayi<100)
 
 sayi++ demek döngü her çalıştığında sayi'yi 1 arttır demektir. Yani döngü her çalıştığında sayi 1,2,3,4,5,6... 
 diyerek koşulumuzda belirttiğimiz gibi sayi 100'den küçük olmayıncaya kadar çalıştıracak ve ekrana 100 defa adımı yazmış olacağım.
+
 
 Ders 4:
 
