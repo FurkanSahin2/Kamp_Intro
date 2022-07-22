@@ -32,7 +32,7 @@ namespace OOP2
 
 
             // Gerçek Müşteri - Tüzel Müşteri
-            // SOLID
+            // SO'L'ID
         }
     }
 }
