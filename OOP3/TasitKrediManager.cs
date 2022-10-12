@@ -6,12 +6,7 @@ namespace OOP3
 {
     class TasitKrediManager : IKrediManager
     {
-        public void BiseyYap()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void BişeyYap()
+        public void BirşeyYap()
         {
             throw new NotImplementedException();
         }

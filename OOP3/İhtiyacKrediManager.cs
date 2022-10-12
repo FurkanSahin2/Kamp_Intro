@@ -11,10 +11,9 @@ namespace OOP3
             Console.WriteLine("İhtiyaç kredisi ödeme planı hesaplandı");
         }
 
-        public void BişeyYap()
+        public void BirşeyYap()
         {
             throw new NotImplementedException();
         }
-
     }
 }
