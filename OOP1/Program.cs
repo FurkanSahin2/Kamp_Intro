@@ -22,7 +22,7 @@ namespace OOP1
             product2.UnitPrice = 25;
             product2.UnitsInStock = 100;
 
-            Console.WriteLine("------Veya------");
+            // Console.WriteLine("------Veya------");
 
             Product product3 = new Product { Id = 3, CategoryId = 8, UnitsInStock = 250, ProductName = "Saat", UnitPrice = 100 };
 
